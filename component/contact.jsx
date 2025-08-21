@@ -8,7 +8,7 @@ const Contact = () => {
   const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
 
-  const API_URL = "https://portfolio-backend-7rp0.onrender.com";
+  const API_URL = "https://portfolio-backend-7rp0.onrender.com/users";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
